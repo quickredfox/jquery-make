@@ -64,7 +64,9 @@ function() {
     ok(current.find('#main-wrapper #main-header').length === 0, "#main-header node destroyed");
     ok(current.find('#main-wrapper #main-section').length === 0, "#main-section node destroyed");
     ok(current.find('#main-wrapper #main-footer').length === 0, "#main-section node destroyed");
+    equals($.makeNodes.length,0,'should remove elements from $.makeNodes');
     ok(true,"Blindly jQuery kills the data");
     ok(true,"Like a Ninja jQuery slices off event handlers on these elements");    
-    ok(true,"3 b.s. tests passed!");    
+    ok(true,"3 b.s. tests passed!");  
+
 });
