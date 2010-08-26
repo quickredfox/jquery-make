@@ -27,7 +27,6 @@ QUnit.reset = function() {
         }]
     ];
     parent = [
-    [
         'section', {
             id: "main-wrapper",
             data: {
@@ -35,7 +34,6 @@ QUnit.reset = function() {
             },
             make: kids
         }]
-    ];
     current.make(parent);
 }
 QUnit.reset();
