@@ -78,6 +78,16 @@ Nothing very new here, a common jQuery DOM builder sort of like the ones seen in
         $.make($('<div>'),recipe) // adds built nodes to the first matched node only...
         $.make('<div>',recipe) // ...this also works
 
+    /*
+        In the same general idea as $.make and $.fn.make but for destroying previously created nodes
+        which are being held in $.makeNodes;
+    */
+        $('#mydiv').unmake();
+        $.unmake('#mydiv');
+
+### TODO ###
+
+moar test!
 
 ### License ###
 
