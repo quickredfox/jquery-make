@@ -1,0 +1,25 @@
+body, header,nav,section,aside,footer{
+	float:left;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;						
+	
+}
+header,nav,section,aside,footer{			
+	width:100%;display:block;padding:0.5em;
+}
+header,nav{text-align:center;}
+header{background:#f0f0f9;}
+nav{background:#336}
+nav *{
+	display:inline;margin:0 1em;color:#fff;
+}
+section{
+	width:60%;
+}
+aside{
+	width:40%;
+}
+aside,footer{
+	background:#f0f0f9
+}
