@@ -1,4 +1,4 @@
-# jQuery Make Plugin v0.0.1 #
+# jQuery Make Plugin v 0.0.2 #
 
 Copyright &copy; 2010, Francois Lafortune, @quickredfox.
 Licensed under the MIT license
@@ -14,6 +14,9 @@ jQuery v1.4.2+
 ### Note ###
 
 Nothing very new here, a common jQuery DOM builder sort of like the ones seen in the past like jQuery.create() and the graft() function... except it's tiny, and delegates most of it's power as a plugin to the jQuery core itself.
+
+Update: Well something new methinks. I basically added unmake functionality by storing in $.makeNodes a jquery object and used $.fn.add during the make process, and then unmake loops through that .remove()'ing those nodes. OTTOMH, remove() should clear all related data and events. Need a "remake" method?
+
 
 ### Example Usage ###
     
