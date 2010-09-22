@@ -1,4 +1,4 @@
-(function(window) {
+(function(document) {
 	var demo = {
 		// in real life, you can also pre-bind with delegate() and/or live() instead of this approach
 		clickHandler:function (e) {
@@ -24,4 +24,4 @@
 			var container = $('<section>').attr('id','demo').make(demoRecipe);
 			$(document.body).append(container);
 		})
-})(window)
+})(document)
