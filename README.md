@@ -7,7 +7,7 @@ Takes a Array-like JSON structure and builds out a DOM tree using $.fn.attr with
 
 This basically allows you to build an entire DOM structure *and* attach events to it *and* tie in some data on each node with one single "recipe". 
 
-see also: "http://mela.nom.es/jquery-make":http://mela.nom.es/jquery-make
+see also: [http://mela.nom.es/jquery-make](http://mela.nom.es/jquery-make)
 
 ### Requires ###
 
